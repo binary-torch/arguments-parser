@@ -30,4 +30,6 @@ args = [
 argumentsParser = ArgumentsParser()
 argumentsParser.setup(args)
 
+# run from terminal: python filename.py --traning traningpath --testing testingpath
+
 ```
