@@ -12,6 +12,6 @@ class ArgumentsParser:
     	for arg in args:
     		name 	= arg["name"]
     		help 	= arg["help"]
-    		required = arg["help"]
+    		required = arg["required"]
     		self.ap.add_argument("--" + name, required=required, help=help)
         return vars(self.ap.parse_args())
