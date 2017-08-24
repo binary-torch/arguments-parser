@@ -22,14 +22,15 @@ args = [
 	{
 		"name" : "testing",
 		"help" : "Path to testing data",
-		"required" : True
+		"required" : False
 	}
 ]
 
 # step 3: create the object and call setup method
 argumentsParser = ArgumentsParser()
-argumentsParser.setup(args)
+data = argumentsParser.setup(args)
 
 # run from terminal: python filename.py --traning traningpath --testing testingpath
+# to access the needed data, ex: ```print(data["traning"])```
 
 ```
