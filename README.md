@@ -44,7 +44,7 @@ data = argumentsParser.setup(args)
 python filename.py --traning traningpath --testing testingpath
 ```
 
-- accessing data
+- step 5: accessing data
 ```python
 print(data["traning"])
 ```
