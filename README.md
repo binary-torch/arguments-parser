@@ -6,6 +6,10 @@
 
 Custom ArgumentsParser to make the process of adding terminal args fast and easy.
 
+> Article
+
+(How to use Argument Parser in Python)[http://binary-torch.com/blog/article/how-to-use-argument-parser-in-python]
+
 > Usage
 
 - step 1: import statement
